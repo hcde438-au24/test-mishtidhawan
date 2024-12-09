@@ -1,0 +1,12 @@
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.recipe-list p {
+  grid-column: span 2;
+  text-align: center;
+}
