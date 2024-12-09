@@ -106,7 +106,7 @@ header {
 }
 
 .ingredient-input:focus {
-  border-color: #007bff; /* Highlighted border on focus */
+  border-color: #007bff;
   outline: none;
 }
 
@@ -123,7 +123,7 @@ header {
 }
 
 .diet-filter:focus {
-  border-color: #007bff; /* Match input focus style */
+  border-color: #007bff;
   outline: none;
 }
 
@@ -142,11 +142,11 @@ header {
 
 .search-button:hover {
   background-color: #0056b3;
-  transform: translateY(-2px); /* Subtle hover lift */
+  transform: translateY(-2px);
 }
 
 .search-button:active {
-  transform: translateY(0); /* Reset on click */
+  transform: translateY(0);
 }
 
 .search-history ul {

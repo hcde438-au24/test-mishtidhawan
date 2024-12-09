@@ -47,7 +47,6 @@ function App() {
         timestamp: serverTimestamp(),
       };
 
-      // Save to Firestore
       await addDoc(collection(db, "searchHistory"), newSearch);
       setSearchHistory((prevHistory) => [newSearch, ...prevHistory]);
     } catch (error) {
